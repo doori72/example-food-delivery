@@ -27,6 +27,7 @@
 
 1. 상점주는 작성된 고객의 리뷰 목록을 언제든지 조회한다
  
+![food_이벤트스토밍_v0 2](https://user-images.githubusercontent.com/8790281/205786463-1a14cbc3-9de4-4e57-9c94-e93ed38e3298.png) 
 
 # 체크포인트
 1. Saga (Pub / Sub)
