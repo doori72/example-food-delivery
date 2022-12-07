@@ -55,17 +55,48 @@
 ---
 ![배송중](https://user-images.githubusercontent.com/8790281/206190867-380617c4-6b1c-43a1-b92b-87a980cd11c0.png)
 ---
-
-6. 고객이 주문을 취소할 수 있다
-7. 주문이 취소되면 배달이 취소된다
-8. 고객이 주문상태를 중간중간 조회한다
-9. 주문상태가 바뀔 때 마다 카톡으로 알림을 보낸다
+5. 고객이 주문을 취소할 수 있다
+---
+![주문취소](https://user-images.githubusercontent.com/8790281/206200706-c88e9490-d879-4390-a4b0-ec00734507cd.png)
+---
+6. 주문이 취소되면 배달이 취소된다
+---
+![배송취소](https://user-images.githubusercontent.com/8790281/206200726-199cdda7-3397-44d7-a94e-e2a8df36a816.png)
+---
+7. 고객이 주문상태를 중간중간 조회한다
+* 결재됨
+---
+![CQRS_결재됨](https://user-images.githubusercontent.com/8790281/206201172-3fad01c8-5939-4183-ba53-539fec71cc13.png)
+---
+* 배송시작
+---
+![CQRS_배송시작](https://user-images.githubusercontent.com/8790281/206201356-cb2c2d19-fe3f-4a23-a520-a72e0b1884bb.png)
+---
+8. 주문상태가 바뀔 때 마다 카톡으로 알림을 보낸다
+---
+![알림](https://user-images.githubusercontent.com/8790281/206202282-80492590-06f6-477f-b390-95a9d44e8f50.png)
+---
 
 # 추가 구현사항
 1. 고객이 리뷰를 작성할 경우 고객에게 쿠폰을 지급한다
+* 리뷰 등록
+---
+![리뷰등록_리뷰_복수개](https://user-images.githubusercontent.com/8790281/206204448-3c4c6e96-aa9f-4b83-adaf-617c8a90e2c0.png)
+---
+* 고객 쿠폰 개수 증가
+---
+![리뷰등록_고객쿠폰증가_복수개](https://user-images.githubusercontent.com/8790281/206204485-a7561f00-d817-41ab-9dd0-a9a480cc07ff.png)
+---
 
 2. 고객이 리뷰를 삭제할 경우 고객의 쿠폰을 차감한다
-
+* 리뷰 삭제(카프카 consumer 로그)
+---
+![리뷰삭제_카프카consumer](https://user-images.githubusercontent.com/8790281/206204307-2996eda3-f149-4991-bede-52f0f0af99e7.png)
+---
+* 고객 쿠폰 개수 감소
+---
+![리뷰삭제_쿠폰삭제](https://user-images.githubusercontent.com/8790281/206204362-2928c2c9-835a-482a-8c6f-a7b629ec0f12.png)
+---
  
  
 
