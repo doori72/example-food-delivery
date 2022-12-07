@@ -64,11 +64,11 @@
 ![배송취소](https://user-images.githubusercontent.com/8790281/206200726-199cdda7-3397-44d7-a94e-e2a8df36a816.png)
 ---
 7. 고객이 주문상태를 중간중간 조회한다
-* 결재됨
+* 결재됨(Mypage CQRS)
 ---
 ![CQRS_결재됨](https://user-images.githubusercontent.com/8790281/206201172-3fad01c8-5939-4183-ba53-539fec71cc13.png)
 ---
-* 배송시작
+* 배송시작(Mypage CQRS)
 ---
 ![CQRS_배송시작](https://user-images.githubusercontent.com/8790281/206201356-cb2c2d19-fe3f-4a23-a520-a72e0b1884bb.png)
 ---
