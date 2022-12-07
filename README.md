@@ -117,7 +117,7 @@ public void onPostPersist(){
 }
 
 ```
-* Consume 예제 코드
+* Subscribe 예제 코드
 ```
 @StreamListener(value=KafkaProcessor.INPUT, condition="headers['type']=='OrderPlaced'")
 public void wheneverOrderPlaced_Pay(@Payload OrderPlaced orderPlaced){
