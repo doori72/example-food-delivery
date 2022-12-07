@@ -19,10 +19,29 @@
 ![오더주문](https://user-images.githubusercontent.com/8790281/206177958-d0157419-24fe-4475-80e1-aa3abf5bbd5a.png)
 ---
 2. 고객이 결제한다
-===
+---
 ![결재완료](https://user-images.githubusercontent.com/8790281/206179445-e02622ad-a0c2-4d61-b1a7-6df00f5004e8.png)
-===
-4. 주문이 되면 주문 내역이 입점상점주인에게 전달된다
+---
+3. 주문이 되면 주문 내역이 입점상점주인에게 전달된다
+```
+    /**
+     * 주문이 되면 주문정보가 상점주에게 복사된다
+     */
+    public static void addOrder(OrderPlaced orderPlaced){
+
+        /** Example 1:  new item */
+        FoodCooking foodCooking = new FoodCooking();
+        foodCooking.setAddress(orderPlaced.getAddress());
+        foodCooking.setCustomerId(orderPlaced.getCustomerId());
+        foodCooking.setFoodId(orderPlaced.getFoodId());
+        foodCooking.setOrderId(String.valueOf(orderPlaced.getId()));
+        foodCooking.setStatus("미결재");
+        foodCooking.setStoreId(orderPlaced.getStoreId());
+        repository().save(foodCooking);
+
+    }
+
+```
 5. 상점주인이 확인하여 요리해서 배달 출발한다
 6. 고객이 주문을 취소할 수 있다
 7. 주문이 취소되면 배달이 취소된다
