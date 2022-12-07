@@ -219,6 +219,10 @@ public void onPrePersist() {
 
 5. Circuit Breaker
 - 리뷰 작성 시 고객의 ID를 알기 위해 해당 오더정보 조회를 req/res 방식으로 호출하며, 조회 시 특정 시간 이상 경과할 경우 서킷 브레이크 발생
+---
+![req_res조회](https://user-images.githubusercontent.com/8790281/206234523-563308ad-40b4-4463-b90d-d400a544b397.png)
+---
+
 - front서비스의 application.yml의 hystrix timeout을 500ms로 변경 후 오더
 ```
 feign:
