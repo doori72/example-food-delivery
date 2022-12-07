@@ -223,7 +223,7 @@ public void onPrePersist() {
 ![req_res조회](https://user-images.githubusercontent.com/8790281/206234523-563308ad-40b4-4463-b90d-d400a544b397.png)
 ---
 
-- front서비스의 application.yml의 hystrix timeout을 500ms로 변경 후 오더
+- front서비스의 application.yml의 hystrix enable은 true로 timeout은 500ms로 설정
 ```
 feign:
   hystrix:
