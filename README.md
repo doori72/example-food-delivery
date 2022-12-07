@@ -11,7 +11,7 @@
 배달의 민족 커버하기 - https://1sung.tistory.com/106
 
 # 이벤트 스토밍 결과
-![모델링_v0 3](https://user-images.githubusercontent.com/8790281/206177015-b10e15b2-cc95-4210-98d7-1e1a23a89574.png)
+![모델링_v0 4](https://user-images.githubusercontent.com/8790281/206232529-a647bd8b-16d2-4299-9cb6-468ce976b6d4.png)
 
 # 기능적 요구사항
 1. 고객이 메뉴를 선택하여 주문한다
