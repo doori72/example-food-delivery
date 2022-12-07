@@ -16,7 +16,7 @@
 # 기능적 요구사항
 1. 고객이 메뉴를 선택하여 주문한다
 ---
-![오더주문](https://user-images.githubusercontent.com/8790281/206177958-d0157419-24fe-4475-80e1-aa3abf5bbd5a.png)
+![신규주문등록](https://user-images.githubusercontent.com/8790281/206195387-3a4d6792-7172-49d5-a23a-6678dca162fb.png)
 ---
 2. 고객이 결제한다
 ---
