@@ -201,7 +201,7 @@ public void onPreRemove(){
 ---
 
 4. Request / Response
-- 리뷰 저장 전(onPrePersist메소드)에 해당 오더번호의 고객ID를 동기식 REST방식으로 호출하여 고객에게 쿠폰 증정
+- 리뷰 저장 전(onPrePersist메소드)에 해당 오더번호의 고객ID를 동기식 REST방식으로 호출하며 리뷰 저장 후 해당 고객에게 쿠폰 증정
 ```
 @PrePersist
 public void onPrePersist() {
